@@ -1,7 +1,7 @@
 # flask-mongo-crud-api
 Flask + MongoDB CRUD API
 
-### Required Packages:
+### 1. Required Packages:
 
 ```
 click==7.1.2
@@ -14,7 +14,7 @@ pymongo==3.11.3
 Werkzeug==1.0.1
 ```
 
-### Usage
+### 2. Usage
 Use [potery](https://python-poetry.org/) for installing packages using poetry
 ```
 poetry install
@@ -47,7 +47,7 @@ Run debug script
 ./debug.sh
 ```
 
-## Mongo setup
+### 3. Mongo setup
 Run mongodb
 ```
 mongod
@@ -78,7 +78,7 @@ db.Train.insert({
 ```
 
 
-## API Documentation 
+### 4. API Documentation 
 
 Use POSTMAN or Insomnia for testing the API:
 
@@ -97,7 +97,7 @@ We are working with Train model here, following is the model schema
  }
 ```
 
-### Routes
+### <ins>Routes</ins>
 
 **GET**
 
