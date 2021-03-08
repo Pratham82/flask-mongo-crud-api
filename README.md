@@ -15,11 +15,11 @@ Werkzeug==1.0.1
 ```
 
 ### 2. Usage
-Use [potery](https://python-poetry.org/) for installing packages using poetry
+Use [poetry](https://python-poetry.org/) for installing packages using poetry
 ```
 poetry install
 ```
-**Optional** Enable poetry shell(this is similar to **virtual environment/pienv**)
+**Optional** Enable poetry shell(this is similar to **virtual environment/pipenv**)
 ```
 poetry shell 
 ```
@@ -55,7 +55,7 @@ mongod
 
 Create Database named Trains:
 ```
-create databse Trains
+create database Trains
 ```
 
 Create Train collection:
